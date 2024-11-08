@@ -1,1 +1,1 @@
-# Fuzzy Clustering Algorithm Library
+# Cluster Analysis Algorithms
