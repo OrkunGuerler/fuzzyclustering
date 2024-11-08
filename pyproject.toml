@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "FuzzyClustering"
-dynamic = ["version"]
-dependencies = ["numpy~=1.26.2"]
+name = "ClusterAnalysis"
+version = "0.0.0.dev0"
+dependencies = ["numpy~=2.1.3", "matplotlib~=3.9.2", "scikit-learn~=1.5.2"]
 requires-python = ">=3.12"
-authors = [{ name = "Orkun GÜRLER", email = "orkun.guerler@gmail.com" }]
-maintainers = [{ name = "Orkun GÜRLER", email = "orkun.guerler@gmail.com" }]
-description = "Fuzzy Clustering Algorithms"
-keywords = ["fuzzy", "clustering", "fuzzy clustering", "pattern recognition"]
+authors = [{ name = "Orkun GÜRLER", email = "orkungurler@gmail.com" }]
+maintainers = [{ name = "Orkun GÜRLER", email = "orkungurler@gmail.com" }]
+description = "Cluster Analysis Algorithms"
+keywords = ["hard clustering", "crisp clustering", "soft clustering", "fuzzy clustering", "pattern recognition"]
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
 classifiers = [
